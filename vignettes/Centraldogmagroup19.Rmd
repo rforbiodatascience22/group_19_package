@@ -30,6 +30,16 @@ function1(20)
 ```
 
 
+```{r}
+function2
+
+Function are able to convert a string of DNA basepairs and convert 
+
+
+
+```
+
+
 
 
 
