@@ -65,7 +65,13 @@ function5("GDGGRRKKGGWFGKHRGQGGSNPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRR
 Example of using all of the functions together
 
 ```{r}
-A = Centraldogmagroup19::function1(20)
+Centraldogmagroup19::function1(20)%>%
+Centraldogmagroup19::function2    %>%
+Centraldogmagroup19::function3    %>%
+Centraldogmagroup19::function4    %>%
+Centraldogmagroup19::function5
+
+A = Centraldogmagroup19::function1(20) 
 B = Centraldogmagroup19::function2(A)
 C = Centraldogmagroup19::function3(B)
 D = Centraldogmagroup19::function4(C)
