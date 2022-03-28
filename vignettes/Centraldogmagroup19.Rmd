@@ -34,20 +34,25 @@ function1(20)
 ```
 
 
+<<<<<<< HEAD
 Function2 are able to convert a string of DNA basepairs to RNA by converting T to U. 
 The input for this function is therefore a string of DNA "ACGT". 
 Exapmle: Input-ACGT Output-ACGU
-
+Centraldogmagroup19::function32("ATGAAAGTAGGTCC")
 ```{r}
 function2
 
 
 
+=======
+## Function3
+>>>>>>> 6461e9f1c01bf610c00101f4395789a4cc7d98c9
 
+The third function of the package takes a DNA or RNA sequence and divides it into strings of 3 (aka codons). Moreover, you can define the reading frame in the input of the function. The output is codons with three bases in each. Example:
 
+```{r}
+Centraldogmagroup19::function3("ATGAAAGTAGGTCC")
 ```
-
-
 
 
 
