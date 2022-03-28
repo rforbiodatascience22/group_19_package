@@ -34,6 +34,13 @@ function1(20)
 ```
 
 
+## Function3
+
+The third function of the package takes a DNA or RNA sequence and divides it into strings of 3 (aka codons). Moreover, you can define the reading frame in the input of the function. The output is codons with three bases in each. Example:
+
+```{r}
+Centraldogmagroup19::function3("ATGAAAGTAGGTCC")
+```
 
 
 
