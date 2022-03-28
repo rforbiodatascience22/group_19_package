@@ -1,0 +1,35 @@
+---
+title: "Centraldogmagroup19"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Centraldogmagroup19}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r}
+install.packages("Centraldogmagroup19")
+```
+
+
+```{r setup}
+library(Centraldogmagroup19)
+```
+
+This package can be used to create plot showing the frequency of each amino acid based on a DNA sequence input. It consists of 5 functions: Function1 generates a random DNA sequence, where the length is defined by the user. Function2 converts the DNA sequence into RNA. Function3 divides the sequence into individual codons given the readin frame, which is defined by the user. Function 4 translates the codons into amino acids. Function 5 plots the frequency of each amino acid in the sequence in a nice bar plot. 
+
+```{r}
+function1(20)
+```
+
+
+
+
+

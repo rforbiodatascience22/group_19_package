@@ -1,5 +1,5 @@
 #' AA frequency plotter
-#'
+#' @importFrom magrittr %>%
 #' @param name_me2 Amino acid sequence
 #'
 #' @return Bar plot showing frequency of each amino acid

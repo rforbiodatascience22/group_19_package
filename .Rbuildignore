@@ -7,3 +7,4 @@
 ^Centraldogmagroup19\.Rcheck$
 ^Centraldogmagroup19.*\.tar\.gz$
 ^Centraldogmagroup19.*\.tgz$
+^\temp$

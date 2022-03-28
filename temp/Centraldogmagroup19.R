@@ -1,7 +1,4 @@
 
-library("magrittr")
-library("ggplot2")
-library("stringr")
 install.packages("devtools")
 
 # Storing data in object
