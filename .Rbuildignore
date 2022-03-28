@@ -1,2 +1,9 @@
-^mypkgname\.Rproj$
+^Centraldogmagroup19\.Rproj$
 ^\.Rproj\.user$
+^mypkgname\.Rcheck$
+^mypkgname.*\.tar\.gz$
+^mypkgname.*\.tgz$
+^LICENSE\.md$
+^Centraldogmagroup19\.Rcheck$
+^Centraldogmagroup19.*\.tar\.gz$
+^Centraldogmagroup19.*\.tgz$
