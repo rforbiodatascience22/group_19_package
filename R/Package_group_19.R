@@ -87,3 +87,13 @@ function5 <- function(name_me2){
 }
 
 function5("IVIYRKIGEAYFCCQHGPYVINRRPV")
+
+usethis::use_r("function1")
+usethis::use_r("function2")
+usethis::use_r("function3")
+usethis::use_r("function4")
+usethis::use_r("function5")
+
+
+
+
