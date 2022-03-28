@@ -23,7 +23,11 @@ install.packages("Centraldogmagroup19")
 library(Centraldogmagroup19)
 ```
 
-This package can be used to create plot showing the frequency of each amino acid based on a DNA sequence input. It consists of 5 functions: Function1 generates a random DNA sequence, where the length is defined by the user. Function2 converts the DNA sequence into RNA. Function3 divides the sequence into individual codons given the readin frame, which is defined by the user. Function 4 translates the codons into amino acids. Function 5 plots the frequency of each amino acid in the sequence in a nice bar plot. 
+This package can be used to create plot showing the frequency of amino acids based on a DNA sequence input. It consists of 5 functions: Function1 generates a random DNA sequence, where the length is defined by the user. Function2 converts the DNA sequence into RNA. Function3 divides the sequence into individual codons given the readin frame, which is defined by the user. Function 4 translates the codons into amino acids. Function 5 plots the frequency of each amino acid in the sequence in a nice bar plot. 
+
+## Function1
+
+The first function of the package takes as input a number, which defines the length of a randomly generated DNA sequence. In the example below, 20 is used as input, and the function then generates a DNA sequence consisting of 20 random bases.
 
 ```{r}
 function1(20)
