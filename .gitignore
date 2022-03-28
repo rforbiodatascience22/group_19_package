@@ -9,4 +9,8 @@ mypkgname*.tgz
 Centraldogmagroup19.Rcheck/
 Centraldogmagroup19*.tar.gz
 Centraldogmagroup19*.tgz
+<<<<<<< HEAD
 DESCRIPTION
+=======
+inst/doc
+>>>>>>> de8d1d634e15f70003dff4ae7bdd09ae905b07f2
