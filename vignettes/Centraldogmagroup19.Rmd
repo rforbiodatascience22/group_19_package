@@ -62,3 +62,15 @@ Function 5 takes a aminoacid sequence, divides it into single letters, and count
 function5("GDGGRRKKGGWFGKHRGQGGSNPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALA")
 ```
 
+Example of using all of the functions together
+
+```{r}
+A = Centraldogmagroup19::function1(20)
+B = Centraldogmagroup19::function2(A)
+C = Centraldogmagroup19::function3(B)
+D = Centraldogmagroup19::function4(C)
+Centraldogmagroup19::function5(C)
+```
+
+ 
+ 
