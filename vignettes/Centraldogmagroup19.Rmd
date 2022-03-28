@@ -54,5 +54,11 @@ The third function of the package takes a DNA or RNA sequence and divides it int
 Centraldogmagroup19::function3("ATGAAAGTAGGTCC")
 ```
 
+## Function5
 
+Function 5 takes a aminoacid sequence, divides it into single letters, and counts the frequency of each amino acid in the sequence. Afterwards, it plots it in a bargraph for each individual letter on the x axis and the frequency on the y axis. 
+
+```{r}
+function5("GDGGRRKKGGWFGKHRGQGGSNPKFENIAEGLRALLARSHVERTTDEGTWVAGVFVYGGSKTSLYNLRRGTALA")
+```
 
